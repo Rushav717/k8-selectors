@@ -6,7 +6,7 @@ metadata:
     purpose: "taint-demo"
 spec:
   nodeSelector:
-   topology.kubernetes.io/zone: us-east-1d #pod will not be scheduled in this node 
+   topology.kubernetes.io/zone: us-east-1c #pod will not be scheduled in this node 
   containers:
   - name: nginx
     image: nginx
